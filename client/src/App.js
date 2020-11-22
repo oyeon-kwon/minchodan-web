@@ -16,7 +16,7 @@ class App extends React.Component {
 
   constructor () {
     super()
-    this.state = { start : true }
+    this.state = { start : false }
 
     this.startHandler = this.startHandler.bind(this);
   }
