@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+
+.nav {
+  padding: 0.5rem;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+  background-color: white;
+  display: flex;
+}
+
+.nav__left {
+    text-align: left;
+    justify-content: space-around;
+}
+
+.nav__center {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #92C9B2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav__right {
+  text-align: right;
+}
+
+.ant-drawer-body {
+  background-color: #92C9B2;
+  color: #fff;
+  height: calc(100vh - 55px);
+}
+
+.menu__link {
+    margin: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.menu__shoplink {
+  margin-top: 30rem;
+  font-size: 1.2rem;
+  border-radius: 2em;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+a {
+  color: white;
+}
+
+.a__shoplink {
+  color: #92C9B2;
+}
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 767px) {
+  .menu_left,
+  .menu_right {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+  }
+
+
+} */

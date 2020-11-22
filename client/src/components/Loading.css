@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+}
+
+.leftBox {
+    justify-content: left;
+}
+
+.rightBox {
+    justify-content: right;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.content {
+    font-weight: 300;
+    margin: 0.5rem;
+}
