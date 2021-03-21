@@ -1,0 +1,24 @@
+.page_body {
+    padding: 3rem;
+}
+
+.page_title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.feedpost_thumbnail {
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    border: solid rgb(238, 238, 238) 0.1rem;
+    margin: 0.3rem;
+    background-color: white;
+}
+
+.feedpost_thumbnail:hover {
+    background-color: rgba(247, 247, 247, 0.836);
+    box-shadow: 3px 3px 3px #3f00c71a;
+}

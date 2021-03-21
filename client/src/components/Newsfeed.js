@@ -1,37 +1,42 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import './Newsfeed.css';
 import { Col, Card, Row } from 'antd';
 import Meta from 'antd/lib/card/Meta';
+import FeedThumbnail from './FeedThumbnail';
 
-function Newsfeed (){
+function Newsfeed () {
 
     const [Products, setProducts] = useState([])
 
-    const renderCards = () => {
+    const renderCards = (item) => {
 
-        console.log('!!')
+        // return <Col lg={6} md={8} xs={24}>
+        //         <Card
+        //             hoverable
+        //             style={{ width: 240 }}
+        //             cover={<img src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+        //         />
+        // </Col>
 
-        return <Col lg={6} md={8} xs={24}>
-                <Card
-                    hoverable
-                    style={{ width: 240 }}
-                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-                >
-                <Meta 
-                    title={"민초조아"}
-                    description={`민초조아요`}
-                />
-            </Card>
-        </Col>
+        // !
 
+        // return <div className="card">
+        //     <a href={`/product/${product._id}`}>
+        //         <img className="feedpost_thumbnail" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"></img>
+        //     </a>
+        // </div>
+    }
+
+    const handleClick = (item) => {
     }
 
     return (
-        <div>
-            나는 뉴스피드
-            <Row>
-                {renderCards}
-            </Row>
+        <div className="page_body">
+            <div className="page_title">News feed</div>
+            {/* <Row> */}
+                {/* {renderCards()} */}
+                <FeedThumbnail />
+            {/* </Row> */}
         </div>
     );
 

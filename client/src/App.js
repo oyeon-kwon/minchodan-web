@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -6,11 +6,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Newsfeed from './components/Newsfeed';
-import Review from './components/Review';
-import Board from './components/Board';
-import Loading from './components/Loading';
+import Newsfeed from "./components/Newsfeed";
+import Review from "./components/Review";
+import Board from "./components/Board";
+import Loading from "./components/Loading";
 import NavBar from "./views/NavBar/NavBar";
+import FeedPost from "./components/FeedPost";
 
 class App extends React.Component {
 
@@ -45,6 +46,7 @@ class App extends React.Component {
               <Route exact path="/board">
                 <Board />
               </Route>
+              <Route exact path="/product/:productId" component={FeedPost}/>
             </Switch>
           </div>
           </div>
