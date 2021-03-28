@@ -10,15 +10,14 @@ function Newsfeed () {
 
     const renderCards = (item) => {
 
-        // return <Col lg={6} md={8} xs={24}>
-        //         <Card
-        //             hoverable
-        //             style={{ width: 240 }}
-        //             cover={<img src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-        //         />
-        // </Col>
+        return <Col lg={6} md={8} xs={24}>
+                <Card
+                    hoverable
+                    style={{ width: 240 }}
+                    cover={<img src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                />
+        </Col>
 
-        // !
 
         // return <div className="card">
         //     <a href={`/product/${product._id}`}>
